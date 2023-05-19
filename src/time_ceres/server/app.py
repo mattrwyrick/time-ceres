@@ -1,11 +1,6 @@
-import sys
 
 from flask import Flask
 
-from time_ceres.settings import PROJ_DIR
-
-
-sys.path.insert(0, PROJ_DIR)
 
 HOST = "localhost"
 PORT = 8000
@@ -26,6 +21,17 @@ def create_app():
     return app
 
 
+def run_app(app, host=HOST, port=PORT):
+    """
+    Run the analytical flask application
+    :param app:
+    :param host:
+    :param port:
+    :return:
+    """
+    app.run(host=host, port=port)
+
+
 if __name__ == "__main__":
-    create_app().run(host=HOST, port=PORT)
+    run_app(create_app())
 

@@ -1,9 +1,8 @@
 # Time Ceres
 
 ## Install
+* requires MS Visual C++ Build Tools
 
-### C++ 
-* https://go.microsoft.com/fwlink/?LinkId=691126
 
 ## To Read
 
@@ -13,3 +12,7 @@
 
 ### Uncertainty
 * https://algotrading101.com/learn/conformal-prediction-guide/
+
+### Front-end
+* https://github.com/ColorlibHQ/AdminLTE/tree/master
+* 
