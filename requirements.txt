@@ -1,0 +1,13 @@
+# cyclicbm
+darts
+flask
+mapie
+numpy
+plotly
+pandas
+scikit-learn
+statsmodels
+pyinstaller
+pyodbc
+pyts
+setuptools
